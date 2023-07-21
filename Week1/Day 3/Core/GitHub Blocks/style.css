@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #858588;
+}
+.first{
+    background-color: #51BDF9;
+}
+.first img{
+    display: flex;
+    display: inline-block;
+    width: 170px;
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+.second{
+    background-color: #D8B1D2;
+}
+
+.second img{
+    display: flex;
+    display: inline-block;
+    width: 170px;
+    justify-content: flex-start;
+    margin-left: 300px;
+}
+
+.third{
+    background-color: #FCFCFF;
+}
+.third img{
+    display: flex;
+    display: inline-block;
+    width: 170px;
+    justify-content: flex-start;
+    margin-left: 200px;
+}
