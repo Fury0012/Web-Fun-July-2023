@@ -6,13 +6,15 @@
 .nav{
     background-color: #333333;
     color: #ffffff;
+    margin: 0 auto;
     height: 80px;
-    width: 1000px;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .nav-title{
+    margin-left: 50px;
     font-family: 'Josefin Sans', sans-serif;
     
 }
@@ -34,9 +36,11 @@
 }
 .btn{
     background-color: #17A2B8;
+    margin-right: 12px;
     width: 80px;
     height: 30px;
     border: 1px;
     border-color: black solid;
+    border: 1px solid black;
     box-shadow: 4px 4px black;
     }
