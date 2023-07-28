@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+
+nav{
+    background-color: aqua;
+    height: 7rem;
+}
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-size: 4rem;
+    left: 9rem;
+    top: 20px;
+}
+nav ul li{
+    position: relative;
+    left: 50rem;
+    top: 2rem;
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 18rem;
+    justify-content: space-between;
+}
+nav ul li a{
+    width: 20px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+.custom-line {
+    border: none; 
+    border-top: 3px solid #ccc; 
+    margin: 20px auto; 
+    width: 80%; 
+}
+
+.san{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    top: 1rem;
+}
+.rest{
+    display: flex;
+    justify-content: flex-end;
+}   
+.content{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.rain, .clouds, .sun{
+    background-color: rgb(213, 213, 213);
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid black;
+    text-align: center;
+}
+.content img{
+    border-radius: 50%;
+    margin: 30px;
+}
+.content span{
+    position: relative;
+    top: 50px;
+    margin: 30px;
+    font-size: 20px;
+}
+.elements {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.elements h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.elements img {
+    width:   80px;
+    height: 80px;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.centered button {
+    border: 1px solid black;
+    box-shadow: 2px 4px 1px 1px black;
+    background-color: #9FC5F8;
+    height: 30px;
+    margin-bottom: 6px;
+    width: 70px;
+}

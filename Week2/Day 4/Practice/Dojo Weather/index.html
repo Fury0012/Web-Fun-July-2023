@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <nav>
+        <h1>DojoWeather</h1>
+        <ul>
+            <li><a href="#" onclick="clicked()">Burbank</a></li>
+            <li><a href="#" onclick="clicked()">Chicago</a></li>
+            <li><a href="#" onclick="clicked()">Dallas</a></li>
+        </ul>
+    </nav>
+    <header>
+
+        <div class="san">
+            <h2 class="name">San Jose</h2>
+            <div class="rest">
+                <span>Select temperature</span>
+                <select name="snack" id="sel">
+                    <option value="C">C</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+        </div>
+
+        <hr class="custom-line">
+        
+
+    </header>
+
+    <div class="content">
+        <div class="rain">
+            <h2>Today</h2>
+            <img src="./assets/some_rain.png" alt="rain">
+            <span>24</span>
+            <span>18</span>
+        </div>
+        <div class="sun">
+            <h2>Today</h2>
+            <img src="./assets/some_sun.png" alt="rain">
+            <span>24</span>
+            <span>18</span>
+        </div>
+        <div class="clouds">
+            <h2>Today</h2>
+            <img src="./assets/some_clouds.png" alt="rain">
+            <span>24</span>
+            <span>18</span>
+        </div>
+        <div class="sun">
+            <h2>Today</h2>
+            <img src="./assets/some_sun.png" alt="rain">
+            <span>24</span>
+            <span>18</span>
+        </div>
+        </div>
+
+        <div class="cookies">
+            <div class="elements">
+                <h2>Stop! Cookie Time</h2>
+                <img src="./assets/cookie.png" alt="cookies">
+                <div class="centered">
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read More</a></p>
+                    <button onclick="accepted()">Accept all</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="script.js"></script>
+    
+</body>
+</html>
