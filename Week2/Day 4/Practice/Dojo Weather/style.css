@@ -97,17 +97,17 @@ nav ul li a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin-top: 10px;
+    line-height: 70px;
 }
 .elements h2 {
     font-size: 30px;
-    margin-bottom: 10px;
+    padding-bottom: -20px;
 }
 
 .elements img {
-    width:   80px;
-    height: 80px;
+    width:   60px;
+    height: 60px;
 }
 
 .centered {
@@ -122,10 +122,12 @@ nav ul li a{
 }
 
 .centered button {
+    position: relative;
     border: 1px solid black;
     box-shadow: 2px 4px 1px 1px black;
     background-color: #9FC5F8;
     height: 30px;
-    margin-bottom: 6px;
+    top: -50px;
+    margin-left: 32px;
     width: 70px;
 }
